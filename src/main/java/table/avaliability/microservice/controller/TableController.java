@@ -26,7 +26,7 @@ public class TableController {
     }
 
     @PutMapping(path = "{id}", produces = MediaType.APPLICATION_JSON_VALUE)
-    public TableAvaliability getTable (@PathVariable("id") final long id, @RequestBody final TableAvaliability tableRequest) {
+    public TableAvaliability updateTable (@PathVariable("id") final long id, @RequestBody final TableAvaliability tableRequest) {
         return tableService.update(id, tableRequest);
     }
 }
