@@ -1,5 +1,0 @@
-table/avaliability/microservice/Application.class
-table/avaliability/microservice/domain/TableAvaliability.class
-table/avaliability/microservice/service/TableService.class
-table/avaliability/microservice/repository/TableAvaliabilityRepository.class
-table/avaliability/microservice/controller/TableController.class
